@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.board{
+  width:27.4rem;
+  height:27.4rem;
+  margin: auto;
+  border: 49px solid black;
+  display:flex;
+  flex-wrap: wrap;
+}
+.symbol{
+  font-size:3rem;
+}
+.square{
+  width:9rem;
+  height:9rem;
+  border: 1px solid black;
+}
+.square:hover{
+  background:lightblue;
+  cursor:pointer;
+}
